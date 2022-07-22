@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:background="@drawable/border_productsearch"
+        android:id="@+id/llProductDetail"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_margin="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="horizontal"
+        >
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:layout_marginTop="10dp"
+        android:id="@+id/civProductImage"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:src="@drawable/tmpapershompee"
+        app:civ_border_width="3dp"
+        app:civ_border_color="@color/black"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="start"
+            android:padding="10dp"
+            >
+            <TextView
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/tvNameProduct"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:text="NAME PRODUCT"
+
+                />
+            <TextView
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/tvCategory"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="CATEGORY"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

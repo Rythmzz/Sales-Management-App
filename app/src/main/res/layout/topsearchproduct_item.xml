@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <LinearLayout
+        android:background="@color/graywhite"
+        android:id="@+id/llProductDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/ivProductImage"
+            android:layout_width="160dp"
+            android:layout_height="160dp" />
+
+        <TextView
+            android:id="@+id/tvNameProduct"
+            android:layout_gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="Hikey Phone asdas dadasda"
+            android:textSize="20dp"
+            android:textColor="@color/bluedeep"
+            android:textStyle="bold"
+
+            />
+
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/ivTop"
+        android:layout_width="107dp"
+        android:layout_height="78dp"
+        android:src="@drawable/tmlabel3"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/tvTop"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="9dp"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:textSize="13dp"
+        android:text="Top"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        />
+
+
+    <ImageView
+        android:id="@+id/ivSale"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+
+        android:src="@drawable/tmlabel1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/tvSale"
+        android:layout_marginTop="2dp"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:textSize="17dp"
+        android:text="Sale"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/llMore"
+        android:visibility="gone"
+        android:layout_width="160dp"
+        android:layout_height="195dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/ivMore"
+            android:src="@drawable/tmmore60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivtextMore"
+            android:src="@drawable/tmmore20"
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

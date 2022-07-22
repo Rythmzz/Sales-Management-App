@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <LinearLayout
+        android:background="@color/graywhite"
+        android:id="@+id/llProductDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/ivProductImage"
+            android:layout_width="160dp"
+            android:layout_height="160dp" />
+
+        <TextView
+            android:id="@+id/tvMoneySale"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="192.000 $"
+            android:textSize="20dp"
+            android:textColor="@color/bluedeep"
+            android:textStyle="bold"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+    <ImageView
+
+        android:layout_width="108dp"
+        android:layout_height="78dp"
+        android:src="@drawable/tmlabel2"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/tvPercent"
+       android:layout_marginTop="3dp"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:textSize="13dp"
+        android:text="30%"
+        android:textStyle="bold"
+        android:textColor="@color/blood"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_width="108dp"
+        android:layout_height="78dp"
+        android:textSize="13dp"
+        android:text="Giảm"
+        android:textStyle="bold"
+        android:textColor="@color/blood"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        />
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+
+        android:src="@drawable/tmlabel1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:textSize="17dp"
+        android:text="Sale"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

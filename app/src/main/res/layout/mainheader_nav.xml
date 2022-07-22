@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/tmamibungbu"
+
+
+        android:padding="5dp"
+
+
+        />
+    <TextView
+        android:id="@+id/tvFullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FullName"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/bluedeep"
+
+        />
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abcde@gmail.com"
+        android:padding="10dp"
+        android:textSize="16dp"
+        />
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        app:dividerColor="@color/bluedeep"
+        />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".page.presentation.product.AddProductPage_Activity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/yellowsolf">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/csHeaderbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/bluedeep"
+        >
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:text="Create Product"
+            android:textSize="22dp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/yellowsolf"
+
+            app:layout_constraintStart_toEndOf="@id/ivBack"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/csHeaderbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.85"
+        app:layout_constraintWidth_percent="0.9"
+
+        >
+        <FrameLayout
+
+            android:id="@+id/tvTitleRegister2"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@color/graywhite"
+            android:gravity="center"
+            android:padding="5dp"
+
+            app:layout_constraintBottom_toTopOf="@id/etProductName"
+            >
+
+            <ImageView
+                android:id="@+id/ivAddImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tmpicture" />
+            <ImageView
+                android:id="@+id/ivLogoAddImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tmaddpicture"
+                android:layout_gravity="end|bottom"
+                />
+
+
+
+        </FrameLayout>
+        <EditText
+            android:inputType="text"
+            android:id="@+id/etProductName"
+            android:background="@drawable/borderfillwhite"
+            android:padding="8dp"
+            android:textColorHint="@color/grayblue"
+            android:hint="Enter ProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTitleRegister2"
+            app:layout_constraintBottom_toTopOf="@id/etPrice"
+            />
+        <EditText
+            android:inputType="number"
+            android:id="@+id/etPrice"
+            android:background="@drawable/borderfillwhite"
+            android:padding="8dp"
+            android:textColorHint="@color/grayblue"
+            android:hint="Enter Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etProductName"
+            app:layout_constraintBottom_toTopOf="@id/etSalePrice"
+            />
+        <EditText
+
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/etSalePrice"
+            android:background="@drawable/borderfillwhite"
+            android:padding="8dp"
+            android:textColorHint="@color/grayblue"
+            android:hint="Enter Sale Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@id/etDescription"
+            app:layout_constraintTop_toBottomOf="@id/etPrice"
+            />
+        <EditText
+            app:layout_constraintStart_toStartOf="parent"
+            android:scrollbars="vertical"
+            android:id="@+id/etDescription"
+            android:background="@drawable/borderfillwhite"
+            android:padding="8dp"
+            android:textColorHint="@color/grayblue"
+            android:hint="Product Description"
+            android:gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toTopOf="@id/rlDropMenu"
+            app:layout_constraintTop_toBottomOf="@id/etSalePrice"
+            />
+        <RelativeLayout
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/rlDropMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/etDescription"
+            app:layout_constraintBottom_toTopOf="@id/btnAdd"
+            android:background="@color/white"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:id="@+id/tilDropMenu"
+
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:hint="@string/select"
+                android:textColorHint="@color/yellowdeep"
+                android:enabled="false"
+                >
+                <AutoCompleteTextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:id="@+id/actvSelect"
+                    android:textColor="@color/yellowsolf"
+                    android:textStyle="bold"
+
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+        <Button
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borderfillbtn2"
+            android:padding="1dp"
+            android:text="Create Product"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintTop_toBottomOf="@id/rlDropMenu"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ivMask"
+        android:background="#99000000"
+        android:visibility="gone"
+        android:orientation="horizontal"/>
+    <ProgressBar
+        android:id="@+id/progress_Loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@color/bluedeep"
+        android:visibility="gone"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

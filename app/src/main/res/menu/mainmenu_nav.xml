@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <item
+        android:id="@+id/nav_AllProduct"
+        android:icon="@drawable/tmlist30"
+        android:title="All Product"
+
+        />
+    <item
+        android:id="@+id/nav_MyCart"
+        android:icon="@drawable/tmshopcart30"
+        android:title="My Shopping Cart"
+        />
+    <item
+        android:id="@+id/nav_Profile"
+        android:title="Profile"
+        >
+        <menu>
+            <item android:id="@+id/nav_Logout"
+                android:icon="@drawable/tmlogout30"
+                android:title="Logout"
+                />
+
+        </menu>
+
+
+    </item>
+    <item
+        android:id="@+id/nav_manageradmin"
+        android:icon="@drawable/tmadmin30"
+        android:title="Admin Mode"
+        >
+        <menu>
+            <item android:id="@+id/nav_ManageOrder"
+                android:icon="@drawable/tmordermanage30"
+                android:title="Manage Orders"
+                />
+            <item android:id="@+id/nav_AddProduct"
+                android:icon="@drawable/tmaddproduct30"
+                android:title="Add Product"
+                />
+            <item android:id="@+id/nav_EditProduct"
+                android:icon="@drawable/tmeditproduct30"
+                android:title="Edit Product"/>
+        </menu>
+
+
+
+    </item>
+
+</menu>
