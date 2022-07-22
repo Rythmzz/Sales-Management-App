@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/drawable/border_dropmenu.xml" value="0.24" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/drawable/border_images.xml" value="0.237" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/drawable/border_permission.xml" value="0.238" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/drawable/border_productsearch.xml" value="0.24" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/drawable/border_search.xml" value="0.237" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/drawable/border_search2.xml" value="0.237" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/drawable/border_shopnow.xml" value="0.1675" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/drawable/borderbackground.xml" value="0.1115" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/drawable/borderfillbtn.xml" value="0.2" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/drawable/borderfillbtn2.xml" value="0.166" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/drawable/borderfillwhite.xml" value="0.198" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/drawable/circle2_item.xml" value="0.163" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/drawable/circle_item.xml" value="0.163" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/drawable/ic_launcher_background.xml" value="0.198" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/drawable/strikethough.xml" value="0.1675" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/addproductpage_activity.xml" value="0.24895833333333334" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/address_layout.xml" value="0.291970802919708" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/adminpage_activity.xml" value="0.25" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/allproductpage_activity.xml" value="0.253125" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/cart_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/cartpage_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/editproductpage_activity.xml" value="0.264" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/homepage_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/images_item.xml" value="0.20854700854700856" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/listcategory_item.xml" value="0.264" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/loginpage_activity.xml" value="0.2" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/mainheader_nav.xml" value="0.253125" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/mainpage_activity.xml" value="0.264" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/order_item.xml" value="0.24895833333333334" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/orderhistorypage_fragment.xml" value="0.25" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/ordermanagementpage_fragment.xml" value="0.25" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/product_item.xml" value="0.4" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/productmanagementpage_fragment.xml" value="0.25" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/productpage_activity.xml" value="0.264" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/productsettingpage_fragment.xml" value="0.25" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/registerpage_activity.xml" value="0.264" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/saleproduct_item.xml" value="0.253125" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/searchpage1_childfragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/searchpage2_childfragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/searchpage_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/searchproduct_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/topsearchproduct_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/layout/userpage_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Shoppev4/app/src/main/res/menu/mainmenu_nav.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
